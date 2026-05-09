@@ -14,13 +14,12 @@ Build a small API service that fetches data from a public external API, caches s
 
 You may use one of the following public APIs, or another public API with similar characteristics:
 
-- Marvel API (https://publicapi.dev/marvel-api)
-- PokéAPI (https://publicapi.dev/poke-api)
-- Harry Porter Characters API (https://publicapi.dev/harry-potter-characters-api)
-- Open Library API
-- REST Countries API
-- Fake Store API
-- GitHub public API
+- Marvel API (https://marvelapp.com/developers/) - This is fun, but you need graphQL knowledge, and learn how to mange the access token, too.
+- PokéAPI (https://pokeapi.co/) - I will pick this for simple API endpoint.
+- Harry Porter Characters API (https://potterdb.com/characters) - This will require tiny skill on web debugging, additionally.
+- Open Library API (https://openlibrary.org/dev/docs/api/search) - This is a serious API. Try with the search endpoint. You will need to handle cache carefully due to the amount of data API returns. For this assignment purpose, pick the endpoint in Examples section should be fine.
+- Fake Store API - most simple. Try to find some fake store that have more than 500 items
+- GitHub public API - This require some searching skills in Github to get the actual API endpoint
 
 The chosen API should return a list of items and support fetching details for a single item.
 
